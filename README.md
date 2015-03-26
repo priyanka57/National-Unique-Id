@@ -13,3 +13,19 @@ The interesting concept in this project is to synchronize the application with t
 ##To run the project: 
 
 Create a database in SQL using queries.txt. Setup MongoDB. Make sure you have all the JDBC and ODBC drivers and java-Mongo and java-SQL drivers installed in your system. Complile and run Home.java to start the application. 
+
+
+1. The programming is done using java core and MySQL act as relational database for storing the string and numeric values for this project.
+ 
+2. MongoDB acts as non relational database for storing the images of the entries for this project.
+
+3. Name of DNS of this project is "project2".
+
+4. Please execute all the queries of txt file queries.txt before executing java files.
+
+5. Include MYSQL and MongoDB jar files while compiling and running the project. 
+
+5. Run the project using command java Home.
+
+
+Thank You.
