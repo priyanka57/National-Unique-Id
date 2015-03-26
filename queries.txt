@@ -1,0 +1,77 @@
+create database project2;
+USE project2;
+CREATE TABLE formI
+(
+UID numeric(12,0),
+FirstName Char(19),
+LastName Char(19),
+sex Char(7),
+Bdate Integer,
+Bmonth Integer,
+Byear Integer,
+FaName Char(19),
+MoName Char(19),
+CurrentAdr VarChar(40),
+Qual VarChar(15),
+Bs Char(20)
+);
+
+CREATE TABLE formII
+(
+UID numeric(12,0),
+Permadr VarChar(40),
+Cn VarChar(12),
+Eid VarChar(20),
+Bg VarChar(4),
+Pno VarChar(15),
+DLno VarChar(15),
+Rano VarChar(15),
+Vid VarChar(15),
+Passno VarChar(15)
+);
+CREATE TABLE formIIIA
+(
+UID numeric(12,0),
+BankAc Char(5),
+bank1 Char(30),
+acc1 VarChar(20),
+bank2 Char(30),
+acc2 VarChar(20),
+bank3 Char(30),
+acc3 VarChar(20),
+bank4 Char(30),
+acc4 VarChar(20),
+Property Char(5),
+Ca1 VarChar(20),
+Ca2 VarChar(20),
+Ca3 VarChar(20),
+Vechile Char(5),
+type1 VarChar(10),
+Vno1 VarChar(15),
+type2 VarChar(10),
+Vno2 VarChar(15),
+type3 VarChar(10),
+Vno3 VarChar(15)
+);
+CREATE TABLE formIIIB
+(
+UID numeric(12,0),
+Buis Char(5),
+Type Char(30),
+addr VarChar(30),
+Org Char(5),
+OrgName VarChar(30),
+Desig VarChar(20),
+insurp Char(5),
+comp1 VarChar(60),
+pno1 VarChar(20),
+comp2 VarChar(60),
+pno2 VarChar(20),
+comp3 VarChar(60),
+pno3 VarChar(20),
+comp4 VarChar(60),
+pno4 VarChar(20),
+Mar Char(5),
+Deemac VarChar(20)
+);
+
